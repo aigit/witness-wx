@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/discover/discover",
+    "pages/broadcast/broadcast",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#35D2AB",
+    "navigationBarTitleText": "亲眼目睹",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#00A67C"
+  },
+  "tabBar": {
+    "color": "white",
+    "backgroundColor": "rgba(0,0,0,0.90)",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/discover/discover",
+        "iconPath": "image/bar_explore_black.png",
+        "selectedIconPath": "image/bar_explore.png"
+      },
+      {
+        "pagePath": "pages/broadcast/broadcast",
+        "iconPath": "image/share.png",
+        "selectedIconPath": "image/share-hl.png"
+      }
+    ]
+  }
+}
