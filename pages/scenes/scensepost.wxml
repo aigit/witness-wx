@@ -1,0 +1,5 @@
+<!--pages/scenes/scensepost.wxml-->
+<view>
+   <button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{false}}"
+          bindtap="primary" show-message-card="{{false}}"> primary </button>
+</view>

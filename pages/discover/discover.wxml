@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo"  hidden='{{hasNews}}'>
+    <block>
+      <image class="userinfo-avatar"  src="{{userInfo.avatarUrl}}"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+      </block>
+  </view>
+  <view class="userinfo" hidden='{{!hasNews}}'>
+          <image class="userinfo-avatar" src="{{scene.avatarUrl}}" bindtap='showSwiper'></image>
+          <text class="userinfo-nickname">{{scene.publisher}}正在{{scene.locationAddress}}</text>
+  </view>
+  <view class="modal-box" hidden="{{hideSeneDetail}}" bindtap="hideSwiper">
+      <swiper class='swiper' indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+      <swiper-item wx:for="{{detalpics}}" wx:key="*this">
+          <image src="{{item}}" class="slide-image"  mode='aspectFit'/>
+        </swiper-item>
+    </swiper>
+  </view>
+</view>

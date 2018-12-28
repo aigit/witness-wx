@@ -1,0 +1,47 @@
+/**index.wxss**/
+.userinfo {
+  align-items:  center;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100%;
+  margin-top: 15%;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin-top: 15%;
+  border-radius: 50%;
+  background-size: cover
+}
+
+.userinfo-nickname {
+  color: #f0e68c;
+}
+
+.container {
+    background: #eee;
+    background-size: cover;
+    background-image: url(https://www.iwitness.top/images/witness_bg2.jpg);
+}
+
+
+.modal-box{
+  position:fixed;
+  width:80%;
+  height:80%;
+  top:50px;
+  background:rgba(0,0,0,0.4);
+  overflow: hidden;
+  z-index: 999
+  }
+
+.swiper {
+ height: 666rpx;
+ width: 100%;
+}
+.swiper image {
+ height: 100%;
+ width: 100%;
+}
